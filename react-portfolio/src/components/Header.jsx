@@ -25,13 +25,16 @@ function Header(){
   }
   const titleStyle = {
     fontSize: '36pt',
-    marginBottom: '1'
+    marginBottom: '3'
+  }
+  const title2Style = {
+    marginTop: '5'
   }
   return (
     <div style={headerStyle}>
     <div>
       <h1 style={titleStyle}>Daniel Bennett</h1>
-      <h3>Junior Front End Web Developer | Portland, OR</h3>
+      <h3 style={title2Style}>Junior Front End Web Developer | Portland, OR</h3>
     </div>
     <div style={navbar}>
       <Link style={linkStyle} to="/"><h3>About Me</h3></Link>

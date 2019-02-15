@@ -27,7 +27,7 @@ function Skills(){
       <div style = {skillsStyle}>
         <h1>The Chops</h1>
         <hr/>
-        <p>Pulling from all aspects of my life wheter it be my time at Epicodus, my short year in Community College, the years in retail, or even the character molder that was high school I have decided to break down these skills into catagories.</p>
+        <p>Pulling from all aspects of my life wheter it be my time at Epicodus, my short year in Community College, the years in retail, or even the character molder that was high school I have decided to break down these skills into two catagories.</p>
       </div>
       <div style = {skillGrid}>
         <div style = {skillTypesStyle}>

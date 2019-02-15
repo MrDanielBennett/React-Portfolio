@@ -2,7 +2,6 @@ import React from 'react';
 
 function Interests(){
   const interestStyle = {
-      marginTop: '25',
       border: 'solid',
       borderRadius: '5',
       borderColor: '#424242',
