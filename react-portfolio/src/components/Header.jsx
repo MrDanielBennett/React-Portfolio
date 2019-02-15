@@ -13,6 +13,7 @@ function Header(){
     <div style={headerStyle}>
     <div>
       <h1>Daniel Bennett</h1>
+      <h3>Junior Web Developer</h3>
     </div>
     <div style={navbar}>
         <Link to="/"><h3>About Me</h3></Link>
