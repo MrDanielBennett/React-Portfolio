@@ -13,13 +13,25 @@ function Header(){
   }
   const linkStyle ={
     color: 'white',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    border: 'solid',
+    borderColor: '#424242',
+    backgroundColor: '#303030',
+    padding: '1',
+    margin: '30',
+    marginBottom: '3',
+    marginTop: '0',
+    borderRadius: '5',
+  }
+  const titleStyle = {
+    fontSize: '36pt',
+    marginBottom: '1'
   }
   return (
     <div style={headerStyle}>
     <div>
-      <h1>Daniel Bennett</h1>
-      <h3>Junior Web Developer</h3>
+      <h1 style={titleStyle}>Daniel Bennett</h1>
+      <h3>Junior Front End Web Developer | Portland, OR</h3>
     </div>
     <div style={navbar}>
       <Link style={linkStyle} to="/"><h3>About Me</h3></Link>
