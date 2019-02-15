@@ -8,7 +8,8 @@ function Header(){
   const navbar = {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr',
-    color: 'white'
+    color: 'white',
+    borderBottom: '2px solid white',
   }
   const linkStyle ={
     color: 'white',
@@ -21,9 +22,9 @@ function Header(){
       <h3>Junior Web Developer</h3>
     </div>
     <div style={navbar}>
-        <Link style={linkStyle} to="/"><h3>About Me</h3></Link>
-        <Link style={linkStyle} to="/projects"><h3>Projects</h3></Link>
-        <Link style={linkStyle} to="/contact"><h3>Contact Me</h3></Link>
+      <Link style={linkStyle} to="/"><h3>About Me</h3></Link>
+      <Link style={linkStyle} to="/projects"><h3>Projects</h3></Link>
+      <Link style={linkStyle} to="/contact"><h3>Contact Me</h3></Link>
     </div>
   </div>
     );

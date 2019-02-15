@@ -3,6 +3,7 @@ import profilePic from '../../assets/images/Profile.png';
 
 function Intro(){
   const introStyle = {
+    marginTop: '10',
     display: 'grid',
     gridTemplateColumns: '1fr 2fr',
   }
@@ -10,14 +11,16 @@ function Intro(){
     height: '400',
     border: 'solid',
     borderRadius: '50%',
-    borderColor: 'yellow',
+    borderColor: '#424242',
+    marginLeft: '25'
   }
   const contentStyle = {
-    marginRight: '50',
+    marginRight: '25',
     border: 'solid',
     borderRadius: '5',
-    borderColor: 'yellow',
+    borderColor: '#424242',
     padding: '10',
+    backgroundColor: '#303030'
   }
   return (
     <div style={introStyle}>
