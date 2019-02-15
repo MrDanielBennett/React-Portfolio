@@ -1,8 +1,13 @@
 import React from 'react';
+import Solo from './Solo';
+import Group from './Group';
 
 function Projects(){
   return (
-      <h1>Projects Work</h1>
+    <div>
+      <Solo/>
+      <Group/>
+    </div>
     );
   }
 

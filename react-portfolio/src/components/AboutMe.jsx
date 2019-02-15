@@ -1,8 +1,15 @@
 import React from 'react';
+import Intro from './Intro';
+import Skills from './Skills';
+import Interests from './Interests';
 
 function AboutMe(){
   return (
-    <h1>About me Works?</h1>
+    <div>
+      <Intro/>
+      <Skills/>
+      <Interests/>
+  </div>
     );
   }
 
