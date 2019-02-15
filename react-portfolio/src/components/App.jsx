@@ -8,6 +8,12 @@ import ContactMe from './ContactMe';
 function App(){
   return (
     <div>
+      <style jsx global>{`
+          body{
+            background-color: #212121;
+            color: white;
+          }
+          `}</style>
     <Header/>
     <Switch>
       <Route exact path='/' component={AboutMe} />
