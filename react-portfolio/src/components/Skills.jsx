@@ -27,14 +27,31 @@ function Skills(){
       <div style = {skillsStyle}>
         <h1>The Chops</h1>
         <hr/>
-        <p>Pulling from all aspects of my life wheter it be my time at Epicodus, my short year in Community College, the years in retail, or even the character molder that was high school I have decided to break down these skills into two catagories.</p>
+        <p>Pulling from all aspects of my life whether it be my time at Epicodus, my short year in Community College, the years in retail, or even the character molder that was high school I have decided to break down the skills I obtained into two catagories.</p>
       </div>
       <div style = {skillGrid}>
         <div style = {skillTypesStyle}>
           <h1>Technical Skills</h1>
           <hr/>
-          <ul>
-            <li></li>
+          <ul style={skillGrid}>
+              <div>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>BootStrap</li>
+              </div>
+              <div>
+                <li>Adobe Photoshop(certifed)</li>
+                <li>Git</li>
+                <li>CMD</li>
+                <li>TDD</li>
+                <li>Angular</li>
+                <li>JQuery</li>
+                <li>SQL Databases</li>
+              </div>
           </ul>
         </div>
         <div style = {skillTypesStyle}>
