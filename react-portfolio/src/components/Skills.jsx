@@ -55,10 +55,23 @@ function Skills(){
           </ul>
         </div>
         <div style = {skillTypesStyle}>
-          <h1>Communicable Skills</h1>
+          <h1>Communicable Skills/Traits</h1>
           <hr/>
-          <ul>
-            <li></li>
+          <ul style = {skillGrid}>
+            <div>
+              <li>Team Player</li>
+              <li>Problem Solver</li>
+              <li>Communicative</li>
+              <li>Focused</li>
+              <li>Resourceful</li>
+            </div>
+            <div>
+            <li>Know when/what to prioritize</li>
+            <li>Compasionate</li>
+            <li>Creative Thinker</li>
+            <li>Honest</li>
+            <li>Know when to ask for help</li>
+          </div>
           </ul>
         </div>
       </div>
