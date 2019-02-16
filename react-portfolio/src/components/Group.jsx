@@ -21,7 +21,7 @@ function Group(){
     backgroundColor: '#303030',
     textAlign: 'center',
     marginTop: '20',
-    margin: '10',
+    margin: '30',
   }
   const projectGrid={
     display: 'grid',
@@ -29,7 +29,6 @@ function Group(){
   }
   const linkText={
     color: 'white',
-    textDecoration: 'none',
   }
   return (
     <div>
