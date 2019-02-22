@@ -1,6 +1,19 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import { fadeInUp } from 'react-animations';
 
-function Interests(){
+const fadeInUpAnimation = keyframes`${fadeInUp}`;
+
+const FadeInUpDiv = styled.div`
+  animation: 3s ${fadeInUpAnimation};
+`;
+
+class Interests extends React.Component{
+  constructor(props) {
+  super(props);
+}
+render(){
+
   const interestStyle = {
       border: 'solid',
       borderRadius: '5px',
@@ -13,7 +26,7 @@ function Interests(){
     gridTemplateColumns: '1fr 1fr 1fr'
   };
   return (
-    <div style = {interestStyle}>
+    <FadeInUpDiv style = {interestStyle}>
       <h1>Interests</h1>
       <hr/>
       <p>I have many interests, most being some form of art/creative projects whether it be film, music, books, video games, and others, here are some of my favorites:</p>
@@ -46,8 +59,9 @@ function Interests(){
           </ul>
         </div>
       </div>
-    </div>
+    </FadeInUpDiv>
     );
+  }
   }
 
   export default Interests;
