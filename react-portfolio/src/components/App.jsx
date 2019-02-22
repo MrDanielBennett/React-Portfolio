@@ -11,9 +11,17 @@ function App(){
     <div>
       <style jsx global>{`
           body{
-            background-color: #212121;
             color: white;
-          }
+            background: linear-gradient(231deg, #212121, #0f151c);
+            background-size: 400% 400%;
+
+            animation: AnimationName 13s ease infinite;
+
+            @keyframes AnimationName {
+                0%{background-position:0% 92%}
+                50%{background-position:100% 9%}
+                100%{background-position:0% 92%}
+            }
           `}</style>
       <Header/>
       <Switch>
