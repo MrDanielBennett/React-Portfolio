@@ -7,7 +7,7 @@ const flipAnimation = keyframes`${flipInX}`;
 const fadeInLeftAnimation = keyframes`${fadeInLeft}`
 
 const FlipDiv = styled.div`
-  animation: 5s ${flipAnimation};
+  animation: 4s ${flipAnimation};
 `;
 const FadeInLeftDiv = styled.div`
   animation: 3s ${fadeInLeftAnimation};
