@@ -67,7 +67,7 @@ render(){
         <FadeInRightDiv style={contactBox}>
           <h2>Projects and Email</h2>
           <p>GitHub: <a style={linkText} href="https://github.com/MrDanielBennett">https://github.com/MrDanielBennett</a></p>
-          <p>Email Me: daniel.bennett1999@gmail.com</p>
+          <p>Email Me: <a style={linkText} href="daniel.bennett1999@gmail.com">daniel.bennett1999@gmail.com</a></p>
         </FadeInRightDiv>
       </div>
     </div>
