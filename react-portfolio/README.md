@@ -34,6 +34,7 @@ State will live in most components because of animations needing state to run.
 * https://www.youtube.com/watch?v=3_wFkcg7gTI
 * https://www.youtube.com/watch?v=BZRyIOrWfHU
 * Trying to use a different animation plugin since react transition group is now no longer updating.
+* FINALLY got it working by going into a different project that I had working animations on and compared the package.json files and saw minor version differences, after changing those the animations started working without a problem.
 
 
 ## Known Bugs

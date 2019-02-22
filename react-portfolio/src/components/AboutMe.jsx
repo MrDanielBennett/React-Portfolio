@@ -2,7 +2,14 @@ import React from 'react';
 import Intro from './Intro';
 import Skills from './Skills';
 import Interests from './Interests';
+import styled, { keyframes } from 'styled-components';
+import { fadeIn } from 'react-animations';
 
+const fadeInAnimation = keyframes`${fadeIn}`;
+
+const FadeInDiv = styled.div`
+  animation: 2s ${fadeInAnimation};
+`;
 
 class AboutMe extends React.Component{
   constructor(props) {
@@ -11,11 +18,13 @@ class AboutMe extends React.Component{
   render(){
 
   return (
+  <FadeInDiv>
     <div>
       <Intro/>
       <Skills/>
       <Interests/>
     </div>
+  </FadeInDiv>
     );
   }
 }

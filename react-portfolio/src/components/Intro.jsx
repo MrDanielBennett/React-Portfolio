@@ -12,7 +12,8 @@ function Intro(){
     border: 'solid',
     borderRadius: '50%',
     borderColor: '#424242',
-    marginLeft: '25px'
+    marginLeft: '25px',
+    marginRight: '5px'
   };
   const contentStyle = {
     marginRight: '25px',
