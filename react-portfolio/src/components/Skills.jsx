@@ -1,11 +1,19 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { flipInX, fadeInLeft } from 'react-animations';
+import { fadeIn, fadeInLeft, fadeInRight } from 'react-animations';
 
-const flipAnimation = keyframes`${flipInX}`;
+const fadeInAnimation = keyframes`${fadeIn}`;
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
-const FlipDiv = styled.div`
-  animation: 4s ${flipAnimation};
+const FadeInDiv = styled.div`
+  animation: 3s ${fadeInAnimation};
+`;
+const FadeInLeftDiv = styled.div`
+  animation: 2s ${fadeInLeftAnimation};
+`;
+const FadeInRightDiv = styled.div`
+  animation: 2s ${fadeInRightAnimation};
 `;
 
 class Skills extends React.Component{
@@ -37,13 +45,13 @@ render(){
   };
   return (
     <div>
-      <FlipDiv style = {skillsStyle}>
+      <FadeInDiv style = {skillsStyle}>
         <h1>The Chops</h1>
         <hr/>
         <p>Pulling from all aspects of my life whether it be my time at Epicodus, my short year in Community College, the years in retail, or even the character molder that was high school I have decided to break down the skills I obtained into two catagories.</p>
-      </FlipDiv>
+      </FadeInDiv>
       <div style = {skillGrid}>
-        <div style = {skillTypesStyle}>
+        <FadeInLeftDiv style = {skillTypesStyle}>
           <h1>Technical Skills</h1>
           <hr/>
           <ul style={skillGrid}>
@@ -66,8 +74,8 @@ render(){
               <li>SQL Databases</li>
             </div>
           </ul>
-        </div>
-        <div style = {skillTypesStyle}>
+        </FadeInLeftDiv>
+        <FadeInRightDiv style = {skillTypesStyle}>
           <h1>Communicable Skills/Traits</h1>
           <hr/>
           <ul style = {skillGrid}>
@@ -86,7 +94,7 @@ render(){
               <li>Know when to ask for help</li>
             </div>
           </ul>
-        </div>
+        </FadeInRightDiv>
       </div>
     </div>
 
