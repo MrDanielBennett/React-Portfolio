@@ -2,34 +2,33 @@ import React from 'react';
 
 function Group(){
   const groupStyle = {
-    marginRight: '25',
     border: 'solid',
-    borderRadius: '5',
+    borderRadius: '5px',
     borderColor: '#424242',
-    padding: '10',
+    padding: '10px',
     backgroundColor: '#303030',
     textAlign: 'center',
-    marginLeft: '450',
-    marginRight: '450',
-    marginTop: '20'
-  }
+    marginLeft: '450px',
+    marginRight: '450px',
+    marginTop: '20px'
+  };
   const projectBox ={
     border: 'solid',
-    borderRadius: '5',
+    borderRadius: '5px',
     borderColor: '#424242',
-    padding: '10',
+    padding: '10px',
     backgroundColor: '#303030',
     textAlign: 'center',
-    marginTop: '20',
-    margin: '30',
-  }
+    marginTop: '20px',
+    margin: '30px',
+  };
   const projectGrid={
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr'
-  }
+  };
   const linkText={
     color: 'white',
-  }
+  };
   return (
     <div>
       <div style={groupStyle}>

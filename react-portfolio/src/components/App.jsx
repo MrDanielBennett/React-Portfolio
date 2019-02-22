@@ -15,14 +15,14 @@ function App(){
             color: white;
           }
           `}</style>
-    <Header/>
-    <Switch>
-      <Route exact path='/' component={AboutMe} />
-      <Route path='/projects' component={Projects} />
-      <Route path='/contact' component={ContactMe} />
-    </Switch>
-    <Footer/>
-  </div>
+      <Header/>
+      <Switch>
+        <Route exact path='/' component={AboutMe} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/contact' component={ContactMe} />
+      </Switch>
+      <Footer/>
+    </div>
     );
   }
 

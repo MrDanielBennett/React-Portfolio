@@ -2,26 +2,26 @@ import React from 'react';
 
 function Skills(){
   const skillsStyle = {
-    marginTop: '25',
+    marginTop: '25px',
     border: 'solid',
-    borderRadius: '5',
+    borderRadius: '5px',
     borderColor: '#424242',
-    padding: '10',
+    padding: '10px',
     backgroundColor: '#303030'
-  }
+  };
   const skillGrid = {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
-  }
+  };
   const skillTypesStyle ={
-    margin: '25',
+    margin: '25px',
     border: 'solid',
-    borderRadius: '5',
+    borderRadius: '5px',
     borderColor: '#424242',
-    padding: '10',
+    padding: '10px',
     backgroundColor: '#303030',
     textAlign: 'center'
-  }
+  };
   return (
     <div>
       <div style = {skillsStyle}>
@@ -34,24 +34,24 @@ function Skills(){
           <h1>Technical Skills</h1>
           <hr/>
           <ul style={skillGrid}>
-              <div>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>BootStrap</li>
-              </div>
-              <div>
-                <li>Adobe Photoshop(certifed)</li>
-                <li>Git</li>
-                <li>CMD</li>
-                <li>TDD</li>
-                <li>Angular</li>
-                <li>JQuery</li>
-                <li>SQL Databases</li>
-              </div>
+            <div>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>BootStrap</li>
+            </div>
+            <div>
+              <li>Adobe Photoshop(certifed)</li>
+              <li>Git</li>
+              <li>CMD</li>
+              <li>TDD</li>
+              <li>Angular</li>
+              <li>JQuery</li>
+              <li>SQL Databases</li>
+            </div>
           </ul>
         </div>
         <div style = {skillTypesStyle}>
@@ -66,12 +66,12 @@ function Skills(){
               <li>Resourceful</li>
             </div>
             <div>
-            <li>Know when/what to prioritize</li>
-            <li>Compasionate</li>
-            <li>Creative Thinker</li>
-            <li>Honest</li>
-            <li>Know when to ask for help</li>
-          </div>
+              <li>Know when/what to prioritize</li>
+              <li>Compasionate</li>
+              <li>Creative Thinker</li>
+              <li>Honest</li>
+              <li>Know when to ask for help</li>
+            </div>
           </ul>
         </div>
       </div>

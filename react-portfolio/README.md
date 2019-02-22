@@ -26,6 +26,16 @@ State will live in most components because of animations needing state to run.
 ## Updated Routes on Paper (with State)
 ![Routes for Project](assets/images/routes2.jpg)
 
+## Today's accomplishments or lack of
+* read and researched how to get animations to work in various ways with now luck, links to articles and videos watched below:
+* https://reactjs.org/docs/animation.html
+* https://github.com/FormidableLabs/react-animations
+* https://www.styled-components.com/docs/basics#installation
+* https://www.youtube.com/watch?v=3_wFkcg7gTI
+* https://www.youtube.com/watch?v=BZRyIOrWfHU
+* Trying to use a different animation plugin since react transition group is now no longer updating.
+
+
 ## Known Bugs
 
 _no known bugs_
