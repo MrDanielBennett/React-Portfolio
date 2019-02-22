@@ -1,6 +1,27 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import { fadeIn, fadeInLeft, fadeInRight } from 'react-animations';
 
-function ContactMe(){
+const fadeInAnimation = keyframes`${fadeIn}`;
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
+
+const FadeInDiv = styled.div`
+  animation: 3s ${fadeInAnimation};
+`;
+const FadeInLeftDiv = styled.div`
+  animation: 2s ${fadeInLeftAnimation};
+`;
+const FadeInRightDiv = styled.div`
+  animation: 2s ${fadeInRightAnimation};
+`;
+
+class ContactMe extends React.Component{
+  constructor(props) {
+  super(props);
+}
+render(){
+
   const contactStyle = {
     border: 'solid',
     borderRadius: '5px',
@@ -33,24 +54,25 @@ function ContactMe(){
   };
   return (
     <div>
-      <div style={contactStyle}>
+      <FadeInDiv style={contactStyle}>
         <h1>Contact Me</h1>
-      </div>
+      </FadeInDiv>
       <div style={contactGrid}>
-        <div style={contactBox}>
+        <FadeInLeftDiv style={contactBox}>
           <h2>Social Media</h2>
           <p>LinkedIn: <a style={linkText} href="https://www.linkedin.com/in/mrdanielkbennett/">https://www.linkedin.com/in/mrdanielkbennett/</a></p>
           <p>Twiter: <a style={linkText} href="https://twitter.com/mrdanielbennett">https://twitter.com/mrdanielbennett</a></p>
           <p>Instagram: <a style={linkText} href="https://www.instagram.com/danielkbennett/">https://www.instagram.com/danielkbennett/</a></p>
-        </div>
-        <div style={contactBox}>
+        </FadeInLeftDiv>
+        <FadeInRightDiv style={contactBox}>
           <h2>Projects and Email</h2>
           <p>GitHub: <a style={linkText} href="https://github.com/MrDanielBennett">https://github.com/MrDanielBennett</a></p>
           <p>Email Me: daniel.bennett1999@gmail.com</p>
-        </div>
+        </FadeInRightDiv>
       </div>
     </div>
     );
+  }
   }
 
   export default ContactMe;

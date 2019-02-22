@@ -1,6 +1,19 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import { fadeInRight } from 'react-animations';
 
-function Group(){
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
+
+const FadeInRightDiv = styled.div`
+  animation: 2s ${fadeInRightAnimation};
+`;
+
+class Group extends React.Component{
+  constructor(props) {
+  super(props);
+}
+render(){
+
   const groupStyle = {
     border: 'solid',
     borderRadius: '5px',
@@ -30,7 +43,7 @@ function Group(){
     color: 'white',
   };
   return (
-    <div>
+    <FadeInRightDiv>
       <div style={groupStyle}>
         <h1>Group Projects</h1>
       </div>
@@ -59,8 +72,9 @@ function Group(){
         </div>
 
       </div>
-    </div>
+    </FadeInRightDiv>
     );
+  }
   }
 
   export default Group;

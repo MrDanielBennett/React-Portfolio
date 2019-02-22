@@ -1,6 +1,20 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import { fadeInLeft } from 'react-animations';
 
-function Solo(){
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+
+const FadeInLeftDiv = styled.div`
+  animation: 2s ${fadeInLeftAnimation};
+`;
+
+
+class Solo extends React.Component{
+  constructor(props) {
+  super(props);
+}
+render(){
+
   const soloStyle = {
     border: 'solid',
     borderRadius: '5px',
@@ -30,7 +44,7 @@ function Solo(){
     color: 'white',
   };
   return (
-    <div>
+    <FadeInLeftDiv>
       <div style={soloStyle}>
         <h1>Independent Projects</h1>
       </div>
@@ -66,8 +80,9 @@ function Solo(){
         </div>
 
       </div>
-    </div>
+    </FadeInLeftDiv>
     );
+  }
   }
 
   export default Solo;
