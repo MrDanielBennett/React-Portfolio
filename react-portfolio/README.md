@@ -22,6 +22,7 @@ _My Portfolio/personal webpage with an about me/projects/skills/contact sections
 
 ![Routes for Project](assets/images/routes.jpg)
 
+State will live in most components because of animations needing state to run.
 
 ## Known Bugs
 
