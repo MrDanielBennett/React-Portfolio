@@ -31,7 +31,22 @@ function Header(){
     marginTop: '5px'
   };
   return (
-    <div style={headerStyle}>
+    <div className='header' style={headerStyle}>
+      <style jsx>{`
+        .header {
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+          @keyframes text-focus-in {
+            0% {
+              filter: blur(12px);
+              opacity: 0;
+            }
+            100% {
+              filter: blur(0px);
+              opacity: 1;
+            }
+          }
+          `}</style>
       <div>
         <h1 style={titleStyle}>Daniel Bennett</h1>
         <h3 style={title2Style}>Junior Front End Web Developer | Portland, OR</h3>

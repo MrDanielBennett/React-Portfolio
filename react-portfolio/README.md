@@ -35,6 +35,9 @@ State will live in most components because of animations needing state to run.
 * https://www.youtube.com/watch?v=BZRyIOrWfHU
 * Trying to use a different animation plugin since react transition group is now no longer updating.
 * FINALLY got it working by going into a different project that I had working animations on and compared the package.json files and saw minor version differences, after changing those the animations started working without a problem.
+* Read more articles about what makes a good portfolio
+* https://www.shopify.com/partners/blog/web-design-portfolio-inspiration
+* Found cool Style page: http://animista.net/play/text/focus-in/text-focus-in
 
 
 ## Known Bugs
